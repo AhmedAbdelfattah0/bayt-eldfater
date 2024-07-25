@@ -402,7 +402,9 @@ NAVIGATION
 
     .top-nav-collapse {
         padding: 0;
-        background: rgba(0,0,0,.8);
+        /* background: rgb(0 0 0 / 16%); */
+        background: rgb(0 0 0 / 16%);
+        height: 97px;
     }
 }
 
@@ -410,6 +412,8 @@ NAVIGATION
     .navbar-default {
         background: rgba(0,0,0,.8);
         border-color: rgba(0,0,0,.8);
+        background: rgb(0 0 0 / 20%);
+        height: 97px;
     }
 }
 
